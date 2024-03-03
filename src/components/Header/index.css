@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+
+.wave_logo_container {
+  display: flex;
+  align-items: center;
+  width: 10vw;
+  height: 10vh;
+  justify-content: space-around;
+  font-size: 120%;
+  margin-left: 2%;
+}
+
+.nav_logo {
+  height: 60%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  width: 20vw;
+  font-size: 100%;
+  margin: 0px;
+  justify-content: space-around;
+  margin-right: 2%;
+}
