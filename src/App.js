@@ -15,12 +15,14 @@ import './App.css'
 const App = () => (
   <div className="page_container">
     <Header />
-    <Switch>
-      <Route exact path="/" component={HomeRoute} />
-      <Route exact path="/about" component={AboutRoute} />
-      <Route exact path="/contact" component={ContactRoute} />
-      <Route component={NotFoundRoute} />
-    </Switch>
+    <div>
+      <Switch>
+        <Route exact path="/" component={HomeRoute} />
+        <Route exact path="/about" component={AboutRoute} />
+        <Route exact path="/contact" component={ContactRoute} />
+        <Route component={NotFoundRoute} />
+      </Switch>
+    </div>
   </div>
 )
 
